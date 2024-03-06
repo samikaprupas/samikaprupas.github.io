@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: calc(0.8em + 0.5vw);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+h1 {
+    font-size: 5em;
+    margin: 0;
+    line-height: 120%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;    
+}
+
+h2{
+    font-size: 2.5em;
+    list-style: 120%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+
+.title-card {
+    width: 100%;
+    height: 100vh;
+    background: url(../images/car.JPG) no-repeat center center;  
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-card article {
+    width: 60%;
+    padding: 1.5em;
+    line-height: 120%;
+}
+
+.link-style{
+    color: white;
+}
+
+.link-style:visited {
+    color: white
+}
+
+.link-style:hover {
+    color: #999
+}
+
+.link-style:active {
+    color: #444
+}
+
+section.parent {
+    width:100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+  }
+
+img{
+    width: 50%;
+}
+  
